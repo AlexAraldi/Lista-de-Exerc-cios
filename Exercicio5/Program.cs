@@ -20,7 +20,7 @@
             Console.WriteLine("Informe o percentual: ");
             double percentual = (Convert.ToDouble(Console.ReadLine()))/100;
 
-            double salarioTotal = salario + (totalVendas * percentual);
+            double salarioTotal = (totalVendas * percentual)+salario ;
 
             Console.WriteLine($"O Salário total do vendedor é:{salarioTotal}");
 
