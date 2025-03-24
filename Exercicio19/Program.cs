@@ -7,7 +7,7 @@
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Calculadora de números impares multiplos de 3 de 1 até 500. ");
+            Console.WriteLine("Calculadora somática de números impares multiplos de 3 de 1 até 500. ");
 
             int operacao = 0;
 
@@ -20,9 +20,8 @@
                     operacao += i;
                 }
 
-
             }
-            Console.WriteLine($"resultado da soma dos numeros impares e multiplos de tres :{operacao}");
+            Console.WriteLine($"Resultado da soma dos números ímpares e multiplos de três de 0 à 500: [ {operacao} ]");
             Console.ReadLine();
 
 
