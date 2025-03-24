@@ -7,7 +7,42 @@
         //variável C e mostrar seu conteúdo na tela.
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            while(true) 
+            {
+                Console.Clear();
+                Console.WriteLine("Cálculo de valores");
+                Console.WriteLine("Escreva o primeiro número: ");
+                int valorA = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Escreva o segundo número: ");
+                int valorB = Convert.ToInt32(Console.ReadLine());
+
+                int valorFinal = 0;
+                string operacao = "";
+                if (valorA == valorB)
+                {
+                    valorFinal = valorA + valorB;
+                    operacao = "O valor foi somado: ";
+                }
+                else
+                {
+                    valorFinal = (valorA * valorB);
+                    operacao = "O valor foi multiplicado: ";
+                }
+
+
+                Console.WriteLine(operacao + valorFinal);
+
+                Console.WriteLine("Você quer continuar? s/N  ");
+
+
+                string opcaoContinuar = Console.ReadLine().ToUpper();
+
+                if (opcaoContinuar != "S")
+                    break;
+                
+
+            }
         }
     }
 }
