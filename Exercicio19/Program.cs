@@ -7,7 +7,23 @@
         static void Main(string[] args)
         {
 
+            Console.WriteLine("Calculadora de números impares multiplos de 3 de 1 até 500. ");
 
+            int operacao = 0;
+
+            for (int i = 1; i < 500; i++)
+            {
+
+                if (i % 2 != 0 && i % 3 == 0)
+                {
+
+                    operacao += i;
+                }
+
+
+            }
+            Console.WriteLine($"resultado da soma dos numeros impares e multiplos de tres :{operacao}");
+            Console.ReadLine();
 
 
             Console.ReadLine();
