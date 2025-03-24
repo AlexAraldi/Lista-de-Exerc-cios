@@ -14,9 +14,7 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("--------------------------------");
             Console.WriteLine("Tabuada");
-            Console.WriteLine("--------------------------------");
 
             Console.Write("Digite um número: ");
 
