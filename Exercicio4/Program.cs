@@ -10,8 +10,6 @@ namespace Exercicio4
         // °F = °C × 1,8 + 32
         static void Main(string[] args)
         {
-
-
             Console.WriteLine(" >>>>> Conversor de Escalas T° <<<<< ");
             Console.WriteLine("Digite 1 para graus Celsius ");
             Console.WriteLine("Digite 2 para graus Fahrenheit ");
