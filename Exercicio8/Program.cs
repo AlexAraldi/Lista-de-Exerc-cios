@@ -11,11 +11,8 @@ namespace Exercicio8
         //  Percorrer todos os números de 2 até o número digitado menos 1
         //  Verificar se o número digitado é divisível por algum dos números percorridos
         //  Se o número não for divisível por nenhum dos números percorridos, então ele é primo
-
-
         static void Main(string[] args)
         {
-
             Console.WriteLine("<<<<<<<< Indetificador de Números Primos >>>>>>>>");
 
             Console.WriteLine("Digite o número para verificação:");
