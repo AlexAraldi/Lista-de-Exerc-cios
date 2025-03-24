@@ -17,7 +17,7 @@
             Console.WriteLine(">>>>>>>>>>> Calculadora de IMC.");
            
             Console.Write("Digite seu nome: ");
-            string nome = Console.ReadLine();
+            string name = Console.ReadLine();
 
             Console.Write("Digite seu peso: ");
             double peso = Convert.ToDouble(Console.ReadLine());
@@ -26,28 +26,28 @@
             double altura = Convert.ToDouble(Console.ReadLine());
 
             double resultIMC = peso / (altura * altura);
-            Console.WriteLine($"O IMC do {nome} é: {resultIMC}");
+            Console.WriteLine($"O IMC do {name} é: {resultIMC}");
 
             if (resultIMC < 18.5)
             {
-                Console.WriteLine($"{nome} está abaixo do peso. ");
+                Console.WriteLine($"{name} está abaixo do peso. ");
 
             }
             else if (resultIMC < 25)
             {
-                Console.WriteLine($"{nome} está com o peso normal. ");
+                Console.WriteLine($"{name} está com o peso normal. ");
 
 
             }
             else if ( resultIMC < 30)
             {
-                Console.WriteLine($"{nome} está acima do peso. ");
+                Console.WriteLine($"{name} está acima do peso. ");
 
             }
             else
             {
 
-                Console.WriteLine($"{nome} está obeso pare de comer. ");
+                Console.WriteLine($"{name} está obeso pare de comer. ");
 
             }
             Console.ReadLine();
