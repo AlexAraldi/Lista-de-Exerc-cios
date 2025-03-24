@@ -20,7 +20,7 @@
             {
                 Console.WriteLine(" Sim, a soma de A + B é menor que C.");
             }
-            else Console.WriteLine("Não, a soma é maior que C");
+            else Console.WriteLine("Não, a soma A + B é maior que C");
 
                 Console.ReadLine();
         }
