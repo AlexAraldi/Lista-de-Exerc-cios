@@ -33,7 +33,7 @@ namespace Exercicio4
                 Console.Write("Escreva o valor de Fahrenheit: ");
                 double fahrenheit = Convert.ToDouble(Console.ReadLine());
 
-                double resultado2 = (5 / 9) * (fahrenheit - 32);
+                double resultado2 = (5.0 / 9.0) * (fahrenheit - 32);
                  
                 Console.WriteLine($"O valor da T° em Celsius é: {resultado2} C°");
 
